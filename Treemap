@@ -1,0 +1,44 @@
+ ● Create TreeMap: TreeMap<String, Integer> map = new TreeMap<>();
+
+ ● Put key-value pair: map.put("One", 1);
+
+ ● Get value: Integer value = map.get("One");
+
+ ● Remove key-value pair: map.remove("One");
+
+ ● First key: String firstKey = map.firstKey();
+
+ ● Last key: String lastKey = map.lastKey();
+
+ ● Lower key: String lowerKey = map.lowerKey("One");
+
+ ● Higher key: String higherKey = map.higherKey("One");
+
+ ● Floor key: String floorKey = map.floorKey("One");
+
+ ● Ceiling key: String ceilingKey = map.ceilingKey("One");
+
+ ● First entry: Map.Entry<String, Integer> firstEntry = map.firstEntry();
+
+ ● Last entry: Map.Entry<String, Integer> lastEntry = map.lastEntry();
+
+ ● Lower entry: Map.Entry<String, Integer> lowerEntry = map.lowerEntry("One");
+
+ ● Higher entry: Map.Entry<String, Integer> higherEntry = map.higherEntry("One");
+
+ ● Floor entry: Map.Entry<String, Integer> floorEntry = map.floorEntry("One");
+
+ ● Ceiling entry: Map.Entry<String, Integer> ceilingEntry = map.ceilingEntry("One");
+
+ ● Poll first entry: Map.Entry<String, Integer> firstEntry = map.pollFirstEntry();
+
+ ● Poll last entry: Map.Entry<String, Integer> lastEntry = map.pollLastEntry();
+
+ ● Submap: SortedMap<String, Integer> subMap = map.subMap("A", "D");
+
+ ● Headmap: SortedMap<String, Integer> headMap = map.headMap("D");
+ ● Tailmap: SortedMap<String, Integer> tailMap = map.tailMap("D");
+ ● Descending key set: NavigableSet<String> descKeys =
+ map.descendingKeySet();
+ ● Descending map: NavigableMap<String, Integer> descMap =
+ map.descendingMap();
