@@ -1,0 +1,33 @@
+ ● Create TreeSet: TreeSet<String> set = new TreeSet<>();
+
+ ● Add element: set.add("Hello");
+
+ ● Remove element: set.remove("Hello");
+
+ ● First element: String first = set.first();
+
+ ● Last element: String last = set.last();
+
+ ● Lower element: String lower = set.lower("Hello");
+
+ ● Higher element: String higher = set.higher("Hello");
+
+ ● Floor element: String floor = set.floor("Hello");
+
+ ● Ceiling element: String ceiling = set.ceiling("Hello");
+
+ ● Poll first: String first = set.pollFirst();
+
+ ● Poll last: String last = set.pollLast();
+
+ ● Subset: SortedSet<String> subSet = set.subSet("A", "D");
+
+ ● Headset: SortedSet<String> headSet = set.headSet("D");
+
+ ● Tailset: SortedSet<String> tailSet = set.tailSet("D");
+
+ ● Descending set: NavigableSet<String> descSet = set.descendingSet();
+
+ ● Iterator: Iterator<String> it = set.iterator();
+
+ ● Descending iterator: Iterator<String> descIt = set.descendingIterator();
