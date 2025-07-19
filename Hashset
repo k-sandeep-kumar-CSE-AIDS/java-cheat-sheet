@@ -1,0 +1,59 @@
+ ● Create a HashSet: HashSet<String> set = new HashSet<>();
+
+ ● Create HashSet with initial capacity: HashSet<String> set = new
+ HashSet<>(16);
+
+ ● Create HashSet from another collection: HashSet<String> set = new HashSet<>(anotherCollection);
+
+ ● Add element: set.add("element");
+
+ ● Remove element: set.remove("element");
+
+ ● Clear all elements: set.clear();
+
+ ● Check if element exists: boolean contains = set.contains("element");
+
+ ● Check if set is empty: boolean isEmpty = set.isEmpty();
+
+ ● Get size of set: int size = set.size();
+
+ ● Add all elements from another collection: set.addAll(anotherCollection);
+
+ ● Remove all elements from another collection: set.removeAll(anotherCollection);
+
+ ● Retain all elements from another collection: set.retainAll(anotherCollection);
+
+ ● Convert set to array: Object[] array = set.toArray();
+
+ ● Convert set to typed array: String[] array = set.toArray(new String[0]);
+
+ ● Iterate over set: for (String element : set) { }
+
+ ● Iterate using iterator: Iterator<String> iter = set.iterator(); while
+ (iter.hasNext()) { }
+
+ ● Remove if condition is met: set.removeIf(element-> element.isEmpty());
+
+ ● For each operation: set.forEach(System.out::println);
+
+ ● Convert to stream: Stream<String> stream = set.stream();
+
+ ● Check if any element satisfies condition: boolean any = set.stream().anyMatch(String::isEmpty);
+
+ ● Check if all elements satisfy condition: boolean all = set.stream().allMatch(s-> s.length() > 2);
+
+ ● Find first element satisfying condition: Optional<String> first = set.stream().filter(s-> s.startsWith("A")).findFirst();
+
+ ● Convert to synchronized set: Set<String> syncSet = Collections.synchronizedSet(set);
+
+ ● Create unmodifiable view of set: Set<String> unmodifiableSet = Collections.unmodifiableSet(set);
+
+ ● Convert to TreeSet (sorted): TreeSet<String> treeSet = new TreeSet<>(set);
+
+ ● Check if set is subset of another set: boolean isSubset = set.containsAll(anotherSet);
+
+ ● Perform union of two sets: set.addAll(anotherSet);
+
+ ● Perform intersection of two sets: set.retainAll(anotherSet);
+
+ ● Perform difference of two sets: set.removeAll(anotherSet);
