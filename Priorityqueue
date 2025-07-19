@@ -1,0 +1,25 @@
+ ● Create PriorityQueue: PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+ ● Create with comparator: PriorityQueue<String> pq = new PriorityQueue<>(Comparator.reverseOrder());
+
+ ● Add element: pq.add(5);
+
+ ● Offer element: pq.offer(3);
+
+ ● Remove element: Integer removed = pq.remove();
+
+ ● Poll element: Integer polled = pq.poll();
+
+ ● Peek top element: Integer top = pq.peek();
+
+ ● Check if empty: boolean isEmpty = pq.isEmpty();
+
+ ● Get size: int size = pq.size();
+
+ ● Clear queue: pq.clear();
+
+ ● Contains element: boolean contains = pq.contains(5);
+
+ ● Convert to array: Object[] array = pq.toArray();
+
+ ● Iterator: Iterator<Integer> it = pq.iterator();
