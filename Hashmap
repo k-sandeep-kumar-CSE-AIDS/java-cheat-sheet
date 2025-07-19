@@ -1,0 +1,58 @@
+● Create a HashMap: HashMap<String, Integer> map = new HashMap<>();
+
+ ● Create HashMap with initial capacity: HashMap<String, Integer> map = new
+ HashMap<>(16);
+
+ ● Create HashMap from another map: HashMap<String, Integer> map = new
+ HashMap<>(anotherMap);
+
+ ● Put key-value pair: map.put("key", 1);
+
+ ● Put if absent: map.putIfAbsent("key", 1);
+
+ ● Get value by key: Integer value = map.get("key");
+
+ ● Get value by key with default: Integer value = map.getOrDefault("key", 0);
+
+ ● Remove key-value pair: map.remove("key");
+
+ ● Remove key-value pair if value matches: map.remove("key", 1);
+
+ ● Clear all entries: map.clear();
+
+ ● Check if key exists: boolean containsKey = map.containsKey("key");
+
+ ● Check if value exists: boolean containsValue = map.containsValue(1);
+
+ ● Get set of keys: Set<String> keys = map.keySet();
+
+ ● Get collection of values: Collection<Integer> values = map.values();
+
+ ● Get set of entries: Set<Map.Entry<String, Integer>> entries = map.entrySet();
+
+ ● Check if map is empty: boolean isEmpty = map.isEmpty();
+
+ ● Get size of map: int size = map.size();
+
+ ● Replace value for key: map.replace("key", 2);
+
+ ● Replace value if old value matches: map.replace("key", 1, 2);
+
+ ● Merge values: map.merge("key", 1, Integer::sum);
+
+ ● Compute value if absent: map.computeIfAbsent("key", k-> k.length());
+
+ ● Compute value if present: map.computeIfPresent("key", (k, v)-> v + 1);
+
+ ● Compute value: map.compute("key", (k, v)-> (v == null) ? 1 : v + 1);
+
+ ● For each operation: map.forEach((k, v)-> System.out.println(k + ": " +v));
+
+ ● Iterate over entries: for (Map.Entry<String, Integer> entry : map.entrySet()) { }
+ 
+ ● Iterate over keys: for (String key : map.keySet()) { }
+
+ ● Iterate over values: for (Integer value : map.values()) { }
+
+ ● Convert to stream: Stream<Map.Entry<String, Integer>> stream =
+ map.entrySet().stream()
