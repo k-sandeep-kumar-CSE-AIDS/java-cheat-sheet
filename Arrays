@@ -1,0 +1,29 @@
+ ● Declare an array: int[] myArray;
+
+ ● Initialize an array: int[] myArray = {1, 2, 3, 4, 5};
+
+ ● Create an array with size: int[] myArray = new int[5];
+
+ ● Access element: int element = myArray[0];
+
+ ● Set element: myArray[0] = 10;
+
+ ● Get array length: int length = myArray.length;
+
+ ● Copy array: int[] newArray = Arrays.copyOf(myArray, myArray.length);
+
+ ● Copy range: int[] partialArray = Arrays.copyOfRange(myArray, 1, 4);
+
+ ● Fill array: Arrays.fill(myArray, 0);
+
+ ● Sort array: Arrays.sort(myArray);
+
+ ● Binary search: int index = Arrays.binarySearch(myArray, 3);
+
+ ● Compare arrays: boolean isEqual = Arrays.equals(array1, array2);
+
+ ● Convert to List: List<Integer> list = Arrays.asList(myArray);
+
+ ● Print array: System.out.println(Arrays.toString(myArray));
+
+ ● Multi-dimensional array: int[][] matrix = new int[3][3];
