@@ -1,0 +1,122 @@
+● Create a String: String str = "Hello, World!";
+
+ ● Create String from char array: String str = new String(new char[]{'H',
+ 'e', 'l', 'l', 'o'});
+ or
+ char[] arr={'H','e','l','l','o');
+ String str = new String(arr);
+
+ ● Get length of string: int length = str.length();
+
+ ● Get character at index: char ch = str.charAt(0);
+
+ ● Get substring: String sub = str.substring(0, 5);
+
+ ● Concatenate strings: String concat = str.concat(" How are you?");
+
+ ● Check if string contains substring: boolean contains = str.contains("World");
+
+ ● Check if string starts with prefix: boolean startsWith = str.startsWith("Hello");
+
+ ● Check if string ends with suffix: boolean endsWith = str.endsWith("!");
+
+ ● Compare strings: int result = str.compareTo("Hello");
+
+ ● Compare strings ignoring case: int result = str.compareToIgnoreCase("HELLO");
+
+ ● Convert to lowercase: String lower = str.toLowerCase();
+
+ ● Convert to uppercase: String upper = str.toUpperCase();
+
+ ● Trim whitespace: String trimmed = str.trim();
+
+ ● Replace character: String replaced = str.replace('o', '0');
+
+ ● Replace sequence: String replaced = str.replace("World", "Java");
+
+ ● Replace first occurrence: String replaced = str.replaceFirst("l", "L");
+
+ ● Replace all occurrences: String replaced = str.replaceAll("l", "L");
+
+ ● Split string: String[] parts = str.split(", ");
+
+ ● Join strings: String joined = String.join(", ", "Hello", "World");
+
+ ● Check if string is empty: boolean isEmpty = str.isEmpty();
+
+ ● Check if string is blank: boolean isBlank = str.isBlank();
+
+ ● Get index of character: int index = str.indexOf('o');
+
+ ● Get last index of character: int lastIndex = str.lastIndexOf('o');
+
+ ● Get index of substring: int index = str.indexOf("World");
+
+ ● Get last index of substring: int lastIndex = str.lastIndexOf("o");
+
+ ● Convert to char array: char[] chars = str.toCharArray();
+
+ ● Matches regex: boolean matches = str.matches("Hello.*");
+ 
+ ● Format string: String formatted = String.format("Hello, %s!", "World");
+
+ ● Repeat string: String repeated = "Hello".repeat(3);
+
+ ● Strip leading spaces: String stripped = str.stripLeading();
+
+ ● Strip trailing spaces: String stripped = str.stripTrailing();
+ 
+ ● Strip all spaces: String stripped = str.strip();
+
+ ● Convert to int: int num = Integer.parseInt("123");
+
+ ● Convert to long: long num = Long.parseLong("123");
+
+ ● Convert to double: double num = Double.parseDouble("123.45");
+
+ ● Convert to float: float num = Float.parseFloat("123.45");
+
+ ● Convert to boolean: boolean bool = Boolean.parseBoolean("true");
+
+ ● Convert int to String: String str = String.valueOf(123);
+
+ ● Convert long to String: String str = String.valueOf(123L);
+
+ ● Convert double to String: String str = String.valueOf(123.45);
+
+ ● Convert float to String: String str = String.valueOf(123.45f);
+
+ ● Convert boolean to String: String str = String.valueOf(true);
+
+ ● Convert to StringBuilder: StringBuilder sb = new StringBuilder(str);
+
+ ● Intern string: String internedStr = str.intern();
+
+ ● Compare string references: boolean isEqual = str1 == str2;
+
+ ● Compare string content: boolean isEqual = str1.equals(str2);
+ 
+ ● Compare string content ignoring case: boolean isEqual = str1.equalsIgnoreCase(str2);
+ 
+ ● Check if string is palindrome: boolean isPalindrome = str.equals(new StringBuilder(str).reverse().toString());
+ 
+ ● Check if string contains only digits: boolean isDigits = str.matches("\\d+");
+ 
+ ● Check if string contains only letters: boolean isLetters =
+ str.matches("[a-zA-Z]+");
+ 
+ ● Check if string contains only letters and digits: boolean isAlphanumeric = str.matches("[a-zA-Z0-9]+");
+ 
+ ● Convert first character to uppercase: String capitalized = str.substring(0, 1).toUpperCase() + str.substring(1);
+
+ ● Reverse string: String reversed = new StringBuilder(str).reverse().toString();
+
+ ● Check if string is a valid number: boolean isNumber = str.matches("-?\\d+(\\.\\d+)?");
+
+ ● Extract numbers from string: String numbers = str.replaceAll("[^0-9]","");
+
+ ● Extract letters from string: String letters = str.replaceAll("[^a-zA-Z]","");
+
+ ● Count occurrences of substring: int count = (str.length()str.replace("substring", "").length()) / "substring".length();
+
+ ● Center string: String centered = String.format("%" + (padLength + str.length()) / 2 + "s", str);
