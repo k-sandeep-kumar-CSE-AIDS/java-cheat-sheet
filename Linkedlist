@@ -1,0 +1,92 @@
+ ● Create a LinkedList: LinkedList<String> list = new LinkedList<>();
+
+ ● Create LinkedList from another collection: LinkedList<String> list = new LinkedList<>(anotherCollection);
+
+ ● Add element: list.add("element");
+
+ ● Add element at index: list.add(0, "element");
+
+ ● Add element at the beginning: list.addFirst("element");
+
+ ● Add element at the end: list.addLast("element");
+
+ ● Remove first occurrence of element: list.remove("element");
+
+ ● Remove element at index: list.remove(0);
+
+ ● Remove first element: list.removeFirst();
+
+ ● Remove last element: list.removeLast();
+
+ ● Get first element: String first = list.getFirst();
+
+ ● Get last element: String last = list.getLast();
+
+ ● Set element at index: list.set(0, "newElement");
+
+ ● Check if list contains element: boolean contains = list.contains("element");
+
+ ● Get index of first occurrence: int index = list.indexOf("element");
+
+ ● Get index of last occurrence: int lastIndex = list.lastIndexOf("element");
+
+ ● Get element at index: String element = list.get(0);
+
+ ● Clear all elements: list.clear();
+
+ ● Check if list is empty: boolean isEmpty = list.isEmpty();
+
+ ● Get size of list: int size = list.size();
+
+ ● Convert list to array: Object[] array = list.toArray();
+
+ ● Convert list to typed array: String[] array = list.toArray(new String[0]);
+
+ ● Get sublist: List<String> subList = list.subList(1, 4);
+
+ ● Add all elements from another collection: list.addAll(anotherCollection);
+
+ ● Add all elements from another collection at index: list.addAll(1,anotherCollection);
+
+ ● Remove all elements from another collection: list.removeAll(anotherCollection);
+
+ ● Retain all elements from another collection: list.retainAll(anotherCollection);
+ 
+ ● Iterate over list: for (String element : list) { }
+
+ ● Iterate using iterator: Iterator<String> iter = list.iterator(); 
+ while(iter.hasNext()) { }
+
+ ● Iterate using list iterator: ListIterator<String> listIter = list.listIterator();
+
+ ● Iterate in reverse: Iterator<String> descendingIter = list.descendingIterator();
+
+ ● Remove if condition is met: list.removeIf(element-> element.isEmpty());
+
+ ● Replace all elements: list.replaceAll(String::toUpperCase);
+
+ ● For each operation: list.forEach(System.out::println);
+
+ ● Convert to stream: Stream<String> stream = list.stream();
+
+ ● Peek at first element: String first = list.peek();
+
+ ● Peek at last element: String last = list.peekLast();
+
+ ● Poll first element: String polled = list.poll();
+
+ ● Poll last element: String polled = list.pollLast();
+
+ ● Push element onto stack: list.push("element");
+
+ ● Pop element from stack: String popped = list.pop();
+
+ ● Sort list: Collections.sort(list);
+
+ ● Reverse list: Collections.reverse(list);
+
+ ● Shuffle list: Collections.shuffle(list);
+
+ ● Find min element: String min = Collections.min(list);
+
+ ● Find max element: String max = Collections.max(list);
