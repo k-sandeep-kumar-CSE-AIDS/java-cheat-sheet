@@ -1,0 +1,15 @@
+ ● Create Stack: Stack<String> stack = new Stack<>();
+
+ ● Push element: stack.push("Hello");
+
+ ● Pop element: String popped = stack.pop();
+
+ ● Peek top element: String top = stack.peek();
+
+ ● Check if empty: boolean isEmpty = stack.isEmpty();
+
+ ● Get size: int size = stack.size();
+
+ ● Search element: int position = stack.search("Hello");
+
+ ● Clear stack: stack.clear();
