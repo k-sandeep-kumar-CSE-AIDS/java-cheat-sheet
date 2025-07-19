@@ -1,0 +1,19 @@
+ ● Create Queue: Queue<String> queue = new LinkedList<>();
+
+ ● Add element: queue.add("Hello");
+
+ ● Offer element: queue.offer("World");
+
+ ● Remove element: String removed = queue.remove();
+
+ ● Poll element: String polled = queue.poll();
+
+ ● Peek front element: String front = queue.peek();
+
+ ● Check if empty: boolean isEmpty = queue.isEmpty();
+
+ ● Get size: int size = queue.size();
+
+ ● Clear queue: queue.clear();
+
+ ● Contains element: boolean contains = queue.contains("Hello");
