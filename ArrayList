@@ -1,0 +1,81 @@
+ ● Create an ArrayList: ArrayList<Integer> list = new ArrayList<>();
+
+ ● Create ArrayList with initial capacity: ArrayList<String> list = new
+ ArrayList<>(10);
+
+ ● Create ArrayList from another collection: ArrayList<String> list = new
+ ArrayList<>(anotherList);
+
+ ● Add element: list.add("element");
+
+ ● Add element at index: list.add(0, "element");
+
+ ● Add all elements from another collection: list.addAll(anotherList);
+
+ ● Get element at index: String element = list.get(0);
+
+ ● Set element at index: list.set(0, "newElement");
+
+ ● Remove element: list.remove("element");
+
+ ● Remove element at index: list.remove(0);
+
+ ● Remove all elements from another collection: list.removeAll(anotherList);
+
+ ● Retain all elements from another collection: list.retainAll(anotherList);
+
+ ● Clear all elements: list.clear();
+
+ ● Check if list contains element: boolean contains = list.contains("element");
+
+ ● Get index of element: int index = list.indexOf("element");
+
+ ● Get last index of element: int lastIndex = list.lastIndexOf("element");
+
+ ● Check if list is empty: boolean isEmpty = list.isEmpty();
+
+ ● Get size of list: int size = list.size();
+
+ ● Convert list to array: Object[] array = list.toArray();
+
+ ● Convert list to typed array: String[] array = list.toArray(new String[0]);
+
+ ● Get sublist: List<String> subList = list.subList(1, 4);
+
+ ● Sort list: Collections.sort(list);
+
+ ● Reverse list: Collections.reverse(list);
+
+ ● Shuffle list: Collections.shuffle(list);
+
+ ● Find min element: String min = Collections.min(list);
+
+ ● Find max element: String max = Collections.max(list);
+
+ ● Fill list with element: Collections.fill(list, "element");
+
+ ● Copy list: ArrayList<String> copy = new ArrayList<>(list);
+
+ ● Iterate over list: for (String element : list) { }
+
+ ● Iterate with index: for (int i = 0; i < list.size(); i++) { }
+
+ ● Iterate using iterator: Iterator<String> iter = list.iterator(); 
+ while(iter.hasNext()) { }
+
+ ● Iterate using listIterator: ListIterator<String> listIter =
+ list.listIterator();
+
+ ● Remove if condition is met: list.removeIf(element-> element.isEmpty());
+
+ ● Replace all elements: list.replaceAll(String::toUpperCase);
+
+ ● For each operation: list.forEach(System.out::println);
+
+ ● Join elements to string: String joined = String.join(", ", list);
+
+ ● Check if any element satisfies condition: boolean any =list.stream().anyMatch(String::isEmpty);
+
+ ● Check if all elements satisfy condition: boolean all = list.stream().allMatch(s-> s.length() > 2);
+
+ ● Find first element satisfying condition: Optional<String> first =list.stream().filter(s-> s.startsWith("A")).findFirst();
